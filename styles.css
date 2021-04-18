@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 30px 50px 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  background-color: #ddd;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin: 0 20px 0 0;
+  font-weight: 600;
+}
+
+a {
+  color: #2632c2
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  max-width: 700px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 40px;
+}
